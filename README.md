@@ -10,9 +10,8 @@ Wirtualna maszyna z Ubuntu 22.04, preferowane 16G RAM
 ## W pierwszej kolejności prosze skolonować repozytorium
 Kod źródłowy:
 ```shell 
-cd 
 git clone https://github.com/PPPASZKO/ML_Project_languages
-cd ML_Project
+cd ML_Project_languages
 ```
 
 ## Instalacja venv
@@ -41,4 +40,9 @@ Po aktywacji środowiska, twój prompt poinformuje cię o wirtualnym środowisku
 Instalujemy wymagane pakiety.
 ```shell
 pip install -r requirements.txt 
+```
+
+Po zainstalowaniu Pakietów można uruchomić jupytera
+```shell
+jupyter notebook
 ```

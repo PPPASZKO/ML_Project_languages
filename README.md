@@ -1,5 +1,10 @@
 # ML_Project
-Instrukcje dotyczące niezbędnych kroków, które należy podjąć przed rozpoczęciem pracy na projekcie.
+Założeniem projektu było wykonanie modelu, który będzie rozpoznawał język danego tekstu (jeden z 20 języków). Projekt wykonany został na podstawie 3 jupyter notebooków z wykorzystaniem datasetu papluca/language-identification z HuggingFace. W pierwszym notebooku 1_dataset_load pobieram, analizuję dane, przygotowuję do dalszej obróbki oraz zapisuje dane. W drugim notebooku 2_embeddings dokonuję pobrania sentence transformera i transformuje dane a następnie zapisuje w pliku. W trzecim notebooku 3_classyfier tworzę model sieci neuronowej, dzielę dane z pliku na treningowe, walidacyjne i testowe, trenuję mój model i dokonuję jego walidacji (wyniki możliwe do obejrzenia w TensorBoardzie). Na samym końcu napisałem skrypt umożliwiający przetestowanie modelu oraz wyświetlenie wyników w porównaniu do prawidłowych danych.
+
+Z danych dokładności predykcji modelu dla kolejnych epok wynika, że jego dokładność przy trenowaniu do 10 epok oscyluje od około 97,5 do 98,0 %.
+
+
+#Instrukcje dotyczące niezbędnych kroków, które należy podjąć przed rozpoczęciem pracy na projekcie.
 
 
 ## Wymagania sprzętowe
